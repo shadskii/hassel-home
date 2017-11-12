@@ -8,7 +8,9 @@ export class RecipesService {
 
     //TODO: move this to a db
     private recipes = [
-        new Recipe('Toffee Squares',
+        new Recipe(
+            'Toffee Squares',
+            'Makes a bunch',
             [
                 '2 Cups flour',
                 '1 cup brown sugar (packed)',
@@ -25,7 +27,9 @@ export class RecipesService {
                 'Sprinkle with walnuts if you want.'
             ],
             'toffee-squares.jpeg'),
-        new Recipe('Chocolate Chiffon Pie',
+        new Recipe(
+            'Chocolate Chiffon Pie',
+            'Makes 8 servings.',
             [
                 '1 pkg. (6 ounces) semi-sweet chocolate pieces',
                 '1/3 cup sugar',
@@ -37,10 +41,12 @@ export class RecipesService {
             [
                 'Place chocolate, sugar, water & vanilla in blender container. Cover and process until smooth. With blender continuing to run remove feeder cap & slowly add egg yolks. Increase to high speed & process about 60 seconds until thick.',
                 'Beat egg whites until stiff peaks form. Carefully fold chocolate mixture into egg whites with wire whisk or rubber spatula. Fold only until combined.',
-                'Turn into baked shell. Refrigerate until firm. Makes 8 servings.'
+                'Turn into baked shell. Refrigerate until firm.'
             ],
             'chocolate-chiffon.jpg'),
-        new Recipe('Frosting For Brownies',
+        new Recipe(
+            'Frosting For Brownies',
+            'Makes some servings',
             [
                 '1 Can (14 oz) Borden\'s condensed milk',
                 '2 squares Bakers Chocolate',
@@ -51,7 +57,9 @@ export class RecipesService {
                 'Spread quickly before it sets.'
             ],
             'frosting.jpg'),
-        new Recipe('Chicken Tetrazzini',
+        new Recipe(
+            'Chicken Tetrazzini',
+            'Makes 8 servings',
             [
                 'One 4.5 pound roasting chicken, cut up',
                 '3 cups hot water',
@@ -74,10 +82,12 @@ export class RecipesService {
                 'From kettle, remove 2 ½ cups broth; to rest of broth add 3 quarts of water & spaghetti. Cook 6 minutes (until tender). Then drain and place spaghetti in 12" x 8" x 2" baking dish.',
                 'In Skillet: heat 3 tbs. butter, add mushrooms, sprinkle them with lemon juice and ½ tsp. salt. Saute them until soft but not brown; toss them and their butter with the spaghetti; refrigerate, covered.',
                 'In Saucepan: melt 3 tbs. butter and remove from the heat; stir in flour, ¼ tsp. paprika, 1 ½ tsp. salt, pepper & nutmeg. Slowly stir in 2 ½ cups reserved broth (1/4 cup sherry may replace ½ cup broth). Cook sauce, stirring until thickened; then add cream; pour over chicken, Refrigerate all, covered.',
-                'Next Day 1 hour before serving - heat oven to 400 degrees F. With fork stir up chicken & sauce, then pour as much sauce as possible over spaghetti while tossing. Now, turn the rest of the chicken mixture into the spaghetti, then sprinkle all with parmesan & paprika. Bake 25 minutes or until hot. Makes 8 servings.'
+                'Next Day 1 hour before serving - heat oven to 400 degrees F. With fork stir up chicken & sauce, then pour as much sauce as possible over spaghetti while tossing. Now, turn the rest of the chicken mixture into the spaghetti, then sprinkle all with parmesan & paprika. Bake 25 minutes or until hot.'
             ],
             'chicken-tetrazzini.jpg'),
-        new Recipe('Oven Stew',
+        new Recipe(
+            'Oven Stew',
+            'Makes 6 servings',
             [
                 '2 pounds beef round steak, cut up (1-inch cubes)',
                 '2 cups sliced carrots',
@@ -99,7 +109,9 @@ export class RecipesService {
                 'Cook in 325 degree oven or on top of range for 4 hours.'
             ],
             'oven-stew.jpg'),
-        new Recipe('Herb Cheese Bread',
+        new Recipe(
+            'Herb Cheese Bread',
+            'Makes one 2 poud loaf',
             [
                 '1 package dry yeast',
                 '1 1/2 tablespoons sugar',
@@ -126,7 +138,9 @@ export class RecipesService {
                 'Remove from the loaf pan and let cool on a wire rack.'
             ],
             'herb-cheese-bread.jpg'),
-        new Recipe('Spaghetti alla Carbonara',
+        new Recipe(
+            'Spaghetti alla Carbonara',
+            'Serves 4 as a main course',
             [
                 '1 pound spaghetti',
                 '6 ounce raw Italian ham or bacon slices',
@@ -145,7 +159,9 @@ export class RecipesService {
                 'Serve immediately with a bowl of grated parmesan on the side for sprinkling.'
             ],
             'spaghetti-carbonara.jpeg'),
-        new Recipe('Potatoes & Sausage au Gratin',
+        new Recipe(
+            'Potatoes & Sausage au Gratin',
+            'Makes 4 servings',
             [
                 '2 medium potatoes, peeled',
                 '1 cup milk',

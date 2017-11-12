@@ -1,7 +1,10 @@
 <nb-card size="large" card-height-xlarge>
-    <nb-card-header>{{recipe.title}}</nb-card-header>
+    <nb-card-header>
+        {{recipe.title}}
+    </nb-card-header>
     <div class="picture" style.background-image="url('assets/images/{{recipe.url}}')"></div>
     <nb-card-body>
+        <p>{{recipe.servings}}</p>
         <div class="ingredients">
             <ul>
                 <li *ngFor="let i of recipe.ingredients"> {{i}}</li>
