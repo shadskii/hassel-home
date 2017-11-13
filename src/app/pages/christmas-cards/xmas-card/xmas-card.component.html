@@ -2,20 +2,15 @@
     <nb-card-header>
         <div class="cameras-card-header">
             <span class="cameras-card-title">{{year}}</span>
-            <nb-actions size="medium" fullWidth>
-                <nb-action>
-                    <span>Front</span>
-                </nb-action>
-                <nb-action>
-                    <span>Back</span>
-                </nb-action>
-                <nb-action>
-                    <span>Content</span>
-                </nb-action>
-            </nb-actions>
             <span class="cameras-filter">
-                <a [class.active]="isSingleView" (click)="isSingleView = true">
-                    <i class="nb-square"></i>
+                <a [class.active]="selected === myCard.front && isSingleView" (click)="changeImg(myCard.front)">
+                    Front
+                </a>
+                <a [class.active]="selected === myCard.back && isSingleView" (click)="changeImg(myCard.back)">
+                    Back
+                </a>
+                <a [class.active]="selected === myCard.content && isSingleView" (click)="changeImg(myCard.content)">
+                    Content
                 </a>
                 <a [class.active]="!isSingleView" (click)="isSingleView = false">
                     <i class="nb-grid-a"></i>
