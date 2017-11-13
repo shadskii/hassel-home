@@ -9,8 +9,6 @@ import { ChristmasCard } from '../../../@core/data/christmas-card';
 export class XmasCardComponent {
 
     myCard: ChristmasCard;
-    cameras: any[];
-    selectedCamera: any;
     year: string;
     selected: string;
 
@@ -19,16 +17,6 @@ export class XmasCardComponent {
         this.myCard = c;
         this.year = c.year;
         this.selected = c.front;
-        this.cameras = [{
-            title: 'Front',
-            source: c.front,
-        }, {
-            title: 'Back',
-            source: c.back,
-        }, {
-            title: 'Content',
-            source: c.content,
-        }];
     }
 
     isSingleView = false;
