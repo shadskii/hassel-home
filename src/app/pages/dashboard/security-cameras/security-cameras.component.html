@@ -19,8 +19,7 @@
       </div>
     </div>
     <div class="cameras" *ngIf="!isSingleView">
-      <div class="camera col-sm-6" *ngFor="let camera of cameras" [style.background-image]="'url(' + camera.source + ')'"
-           (click)="selectCamera(camera)">
+      <div class="camera col-sm-6" *ngFor="let camera of cameras" [style.background-image]="'url(' + camera.source + ')'" (click)="selectCamera(camera)">
         <span>{{ camera.title }}</span>
       </div>
     </div>
@@ -28,16 +27,20 @@
   <nb-card-footer>
     <nb-actions size="medium" fullWidth>
       <nb-action>
-        <i class="nb-pause-outline"></i><span>Pause</span>
+        <i class="nb-pause-outline"></i>
+        <span>Pause</span>
       </nb-action>
       <nb-action>
-        <i class="nb-list"></i><span>Logs</span>
+        <i class="nb-list"></i>
+        <span>Logs</span>
       </nb-action>
       <nb-action>
-        <i class="nb-search"></i><span>Search</span>
+        <i class="nb-search"></i>
+        <span>Search</span>
       </nb-action>
       <nb-action>
-        <i class="nb-gear"></i><span>Setup</span>
+        <i class="nb-gear"></i>
+        <span>Setup</span>
       </nb-action>
     </nb-actions>
   </nb-card-footer>
