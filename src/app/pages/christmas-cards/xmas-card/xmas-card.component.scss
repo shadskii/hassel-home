@@ -81,9 +81,10 @@
   .camera {
     position: relative;
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
     max-height:auto;
-    max-width: 100%;
+    max-width: auto;
     display: block;
     padding: 0;
 
