@@ -182,7 +182,29 @@ export class RecipesService {
                 'Pour potato mixture into prepared dish.   Stir in sliced sausage and onions.   Top with shredded cheese.',
                 'Bake 30 minutes.   Cut into squares to serve.'
             ],
-            'sausage-potatoes-au-groten.jpg')
+            'sausage-potatoes-au-groten.jpg'),
+        new Recipe(
+            'Chocolate Lover\s Chocolate Mousse Pie',
+            'Makes 12 servings',
+            [
+                '1 cup graham cracker crumbs',
+                '1/3 cup NESTLÉ® TOLL HOUSE® Baking Cocoa',
+                '1/4 cup granulated sugar',
+                '1/3 cup butter, melted',
+                '2 3/4 cups (16 oz.) NESTLÉ® TOLL HOUSE® Semi-Sweet Chocolate Morsels, divided',
+                '2 cups heavy whipping cream, divided',
+                '2 teaspoons powdered sugar',
+                '1 teaspoon vanilla extract'
+            ],
+            [
+                'PREHEAT oven to 350° F.',
+                'COMBINE graham cracker crumbs, cocoa and granulated sugar in 9 - inch pie plate.Stir in butter until moistened; press onto bottom and up side of pie plate.',
+                'BAKE for 8 to 10 minutes.Sprinkle 1 / 2 cup morsels over bottom of hot crust; let stand for 10 minutes or until all morsels are shiny.Spread chocolate over bottom and up side of crust.Cool to room temperature.',
+                'MICROWAVE 2 cups morsels and 3 / 4 cup cream in large, uncovered, microwave - safe bowl on HIGH(100 %) power for 1 minute; STIR.The morsels may retain some of their original shape.If necessary, microwave at additional 10 - to 15 - second intervals, stirring just until morsels are melted.Cool to room temperature.',
+                'BEAT remaining cream, powdered sugar and vanilla extract in chilled small mixer bowl until soft peaks form.Fold 2 cups whipped cream into chocolate mixture.Spoon into crust; swirl top.Garnish with remaining whipped cream.Refrigerate until firm.',
+                'MICROWAVE remaining 1 / 4 cup morsels in heavy - duty plastic bag on HIGH(100 %) power for about 30 seconds; knead until smooth.Cut tiny corner from bag; squeeze to drizzle chocolate over pie.Llet stand a few minutes before serving.'
+            ],
+            'chocolate-mousse-pie.jpg')
     ];
 
     private recipeArray: any[];
