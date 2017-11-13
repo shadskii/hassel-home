@@ -29,18 +29,12 @@ export class XmasCardComponent {
             title: 'Content',
             source: c.content,
         }];
-        this.selectCamera = this.cameras[0];
     }
 
     isSingleView = false;
 
     public changeImg(img: string) {
         this.selected = img;
-        this.isSingleView = true;
-    }
-
-    selectCamera(camera: any) {
-        // this.selectedCamera = camera;
         this.isSingleView = true;
     }
 }
