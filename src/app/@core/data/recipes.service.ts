@@ -16,7 +16,8 @@ export class RecipesService {
                 '1 cup brown sugar (packed)',
                 '1 teaspoon salt',
                 '1 tablespoon vanilla',
-                '1 egg', '1 cup butter',
+                '1 egg',
+                '1 cup butter',
                 '8 ounces chocolate',
                 'ground walnuts'
             ],
