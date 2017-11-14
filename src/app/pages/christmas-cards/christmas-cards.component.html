@@ -1,2 +1,5 @@
-<p>Christmas cards here!</p>
-<xmas-card *ngFor="let c of cards" [card]="c"></xmas-card>
+<div class="row">
+    <div *ngFor="let c of cards" class="col-12 col-sm-6">
+        <xmas-card [card]="c"></xmas-card>
+    </div>
+</div>
