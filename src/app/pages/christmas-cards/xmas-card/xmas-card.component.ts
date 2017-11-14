@@ -19,7 +19,7 @@ export class XmasCardComponent {
         this.selected = c.front;
     }
 
-    isSingleView = false;
+    isSingleView = true;
 
     public changeImg(img: string) {
         this.selected = img;
